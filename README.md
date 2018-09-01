@@ -2,6 +2,7 @@
 A MATLAB function that creates a User Interface figure with given height and width, and also the maximum height of the figure in terms of percentage of the computer screen's height. If the required height of the figure is bigger than the given percentage of the screen, the figure will have a scroll. Otherwise, it won't have a scroll, as it is not needed. This is useful for cases when the figure is not too big in some computers (no need for scroll), but is too big in other computers (hence a scroll is needed). I originally programmed this function as a part of the "RP-Toolkit" package, but it can be used anywhere else as well.
 
 **Usage:**
+
 [base_figure, base_panel] = ui_scroll_screen(figure_width, figure_height, scroll_width, max_height_percent, top_space_height, bottom_space_height, title)
 
 **output**
