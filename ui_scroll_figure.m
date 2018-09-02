@@ -1,5 +1,9 @@
 function [base_figure, base_panel] = ui_scroll_screen(figure_width, figure_height, scroll_width, max_height_percent, top_space_height, bottom_space_height, title)
 
+% Version 01: 20/11/2017
+% Author: Oriel Nofekh (https://github.com/Orielno)
+% Link: https://github.com/Orielno/UI-figure-with-scroll
+
 % this function creates a screen with a built-in scroll procedure.
 % the function is given a height for the screen, and a percent representing
 % the maximum percent of the pc screen that the actual height of the screen
